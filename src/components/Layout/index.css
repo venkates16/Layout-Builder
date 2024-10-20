@@ -1,0 +1,16 @@
+/* Write your CSS here */
+
+.layoutContent {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.contentLayout {
+  width: 70%;
+}
+
+ul {
+  list-style: none;
+}

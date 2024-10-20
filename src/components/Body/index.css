@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.navleft {
+  color: white;
+  background: rgb(208, 204, 204);
+  padding: 12px;
+  flex-grow: 1;
+}
+.alignLeftBar {
+  margin: 12px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+@media (min-width: 768px) {
+  .alignLeftBar {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    margin: 12px 0px;
+  }
+}
